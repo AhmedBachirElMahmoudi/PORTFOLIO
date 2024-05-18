@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+
+    <style>
+        .progress-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .progress-bar {
+            display: inline-block;
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="h-screen test">
+        <div class="h-20 bg-black text-white flex justify-between pl-12 pr-12 items-center">
+            <div class="text-3xl">Bachir<span class="text-sky-300">.Tech</span></div>
+            <div class="text-xl flex gap-4">
+                <a href="#about" class="hover:text-sky-300 nav-link">About Me</a>
+                <a href="#projects" class="hover:text-sky-300 nav-link">Projects</a>
+                <a href="#skills" class="hover:text-sky-300 nav-link">Skills</a>
+                <a href="#contact" class="hover:text-sky-300 nav-link">Contact</a>
+            </div>
+        </div>
+        <div class="bg-slate-800 w-full p-28 flex" style="height: calc(100vh - 5rem);">
+            <div class="text-white flex flex-col justify-center" style="width: 50%;">
+                <p class="text-3xl">Hello , It's Me</p>
+                <p class="text-5xl">Ahmed Bachir</p>
+                <p class="text-3xl">And I'm a <span class="text-sky-300	">Full Stack Developer</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non quos magnam perferendis facilis!</p>
+                <div class="flex gap-3 mt-3">
+                    <a href="#" class="inline-block p-2 rounded-full border-2  transition-colors duration-500 border-sky-300 text-sky-300" style="width: 7vh;text-align: center;">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" class="inline-block p-2 rounded-full border-2  transition-colors duration-500 border-sky-300 text-sky-300" style="width: 7vh;text-align: center;">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#" class="inline-block p-2 rounded-full border-2  transition-colors duration-500 border-sky-300 text-sky-300" style="width: 7vh;text-align: center;">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#" class="inline-block p-2 rounded-full border-2  transition-colors duration-500 border-sky-300 text-sky-300" style="width: 7vh;text-align: center;">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+                <button class="p-3 mt-4 bg-sky-300 rounded-2xl text-black font-medium" style="width: 22vh;">Download CV</button>
+            </div>
+            <div class="flex flex-col justify-center" style="width: 50%;align-items: end;height: auto;">
+                <div class="bg-white p-4" style="width: 60vh;height: 90vh;border-radius: 100%;">
+                    <img src="images/photo1.jpg" style="width: 100%;height: 100%;border-radius: 100%;" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="bg-black w-full flex pr-36 pl-24" style="height: 100vh;">
+        <div class=" h-full w-full flex pt-12 pb-12" style="width: 40%;justify-content: end;">
+            <div class="" style="width: 70%;">
+                <img src="images/IMG_9567.jpg" style="width: 100%;height: 100%;object-fit: cover;" alt="">
+            </div>
+        </div>
+        <div class="text-white h-full pt-20 pl-12 pr-12" style="width: 60%;">
+            <p class="text-6xl mb-3">About Me</p>
+            <p class="mb-3 text-lg">Developer & <span class="text-sky-300">Designer</span></p>
+            <p>Passionate about Full Stack web development with a strong
+                understanding of languages such as HTML, CSS, JavaScript, PHP, and
+                Python. Mastery of frameworks such as Laravel and technologies
+                front-end like Bootstrap and React. Practical experience in
+                design of dynamic and functional user interfaces. Follower
+                MySQL databases and concerned about code quality. Motivated
+                through continuous learning.
+            </p>
+            <button class="p-3 mt-4 bg-sky-300 rounded-2xl text-white font-medium" style="width: 22vh;">Download CV</button>
+        </div>
+    </div>
+    <div id="projects" class="bg-slate-800 w-full pb-20" style="height: auto;">
+        <div class="w-full p-12" style="text-align: center;">
+            <p class="text-white text-5xl"><span class="text-sky-300">My</span> Projects</p>
+        </div>
+        <div class="w-full pl-24 pr-24 flex flex-col gap-12">
+            <div class="w-full flex gap-12">
+                <div class="bg-white rounded-2xl flex" style="width: 50%;height: 40vh;">
+                    <div style="width: 50%;height: 100%;object-fit: content;">
+                        <img src="images/projects.jpeg"style="border-radius: 0.75rem 0 0 0.75rem;height: 100%;" alt="">
+                    </div>
+                    <div class="p-3" style="width: 50%;">
+                        <p class="text-3xl">Project 1</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus obcaecati maxime commodi, atque excepturi fugit quos possimus doloribus ab aut.</p>
+                        <a href="" class="text-blue-400">view ></a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl flex" style="width: 50%;height: 40vh;">
+                    <div style="width: 50%;height: 100%;object-fit: content;">
+                        <img src="images/projects.jpeg"style="border-radius: 0.75rem 0 0 0.75rem;height: 100%;" alt="">
+                    </div>
+                    <div class="p-3" style="width: 50%;">
+                        <p class="text-3xl">Project 1</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus obcaecati maxime commodi, atque excepturi fugit quos possimus doloribus ab aut.</p>
+                        <a href="" class="text-blue-400">view ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex gap-12">
+                <div class="bg-white rounded-2xl flex" style="width: 50%;height: 40vh;">
+                    <div style="width: 50%;height: 100%;object-fit: content;">
+                        <img src="images/projects.jpeg"style="border-radius: 0.75rem 0 0 0.75rem;height: 100%;" alt="">
+                    </div>
+                    <div class="p-3" style="width: 50%;">
+                        <p class="text-3xl">Project 1</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus obcaecati maxime commodi, atque excepturi fugit quos possimus doloribus ab aut.</p>
+                        <a href="" class="text-blue-400">view ></a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl flex" style="width: 50%;height: 40vh;">
+                    <div style="width: 50%;height: 100%;object-fit: content;">
+                        <img src="images/projects.jpeg"style="border-radius: 0.75rem 0 0 0.75rem;height: 100%;" alt="">
+                    </div>
+                    <div class="p-3" style="width: 50%;">
+                        <p class="text-3xl">Project 1</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus obcaecati maxime commodi, atque excepturi fugit quos possimus doloribus ab aut.</p>
+                        <a href="" class="text-blue-400">view ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="bg-black">
+        <div class="w-full p-12" style="text-align: center;">
+            <p class="text-white text-5xl"><span class="text-sky-300">My</span> Skills</p>
+        </div>
+        <div class="w-full pl-24 pr-24 pb-24 flex gap-10">
+            <div class="" style="width: 50%;">
+                <section class="skills" id="skills">
+                    <h3 class="skills-header">My<span class="text-sky-300"> Technical </span> Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-container">
+                            <p>HTML</p>
+                            <div class="percentage html-percentage">90%</div>
+                            <div class="bar">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+            
+                        <div class="skill-container">
+                            <p>CSS</p>
+                            <div class="percentage css-percentage">90%</div>
+                            <div class="bar">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+            
+                        <div class="skill-container">
+                            <p>JavaScript</p>
+                            <div class="percentage javascript-percentage">80%</div>
+                            <div class="bar">
+                                <span class="javascript"></span>
+                            </div>
+                        </div>
+            
+                        <div class="skill-container">
+                            <p>React.JS</p>
+                            <div class="percentage react-percentage">70%</div>
+                            <div class="bar">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+            
+                        <div class="skill-container">
+                            <p>PHP</p>
+                            <div class="percentage node-percentage">50%</div>
+                            <div class="bar">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="" style="width: 50%;">
+                <div class="w-full" style="text-align: center;">
+                    <h3 class="skills-header text-white">My<span class="text-sky-300"> Professional </span> Skills</h3>
+                </div>
+                <div class="progress-container flex flex-col gap-7 text-white" style="justify-content: center; align-items: center;">
+                    <div class="flex gap-7">
+                        <div class="flex flex-col items-center w-40">
+                            <div class="progress-bar" id="communication-progress">
+                                <p></p>
+                            </div>
+                            <h1>communication</h1>
+                        </div>
+                        <div class="flex flex-col items-center w-40">
+                            <div class="progress-bar" id="emotional-intelligence-progress">
+                                <p></p>
+                            </div>
+                            <h1>Emotional Intelligence</h1>
+                        </div>
+                    </div>
+                    <div class="flex gap-7">
+                        <div class="flex flex-col items-center w-40">
+                            <div class="progress-bar" id="adaptability-progress">
+                                <p></p>
+                            </div>
+                            <h1>Adaptability</h1>
+                        </div>
+                        <div class="flex flex-col items-center w-40">
+                            <div class="progress-bar" id="problem-solving-progress">
+                                <p></p>
+                            </div>
+                            <h1>Problem Solving</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="bg-slate-800 pb-20" style="height: auto;">
+        <div class="w-full p-12" style="text-align: center;">
+            <p class="text-white text-5xl"><span class="text-sky-300">Contact</span> Me</p>
+        </div>
+        <div  class="flex pl-24 pr-24">
+            <div class="text-white p-24" style="width: 50%;">
+                <p class="text-4xl">Let's talk about</p>
+                <p class="text-4xl">everything.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quia esse architecto voluptatum odio. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="mx-auto pr-24" style="width: 50%;">
+                <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                            Name
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                            Message
+                        </label>
+                        <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <button class="bg-sky-300 hover:bg-blue-400 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                            Send
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-black py-8">
+        <div class="container mx-auto flex justify-center items-center text-white">
+            <p class="text-sm">&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
